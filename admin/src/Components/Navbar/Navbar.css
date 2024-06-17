@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 3px -2px black;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 1px;
+    background: white;
+}
+
+.nav-logo{
+    width: 200px;
+    cursor: pointer;
+}
+
+.nav-profile{
+    width: 75px;
+    cursor: pointer;
+}
