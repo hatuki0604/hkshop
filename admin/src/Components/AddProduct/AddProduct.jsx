@@ -55,19 +55,19 @@ const AddProduct = () => {
     return ( 
         <div className='add-product'>
             <div className="addproduct-itemfield">
-                <p>Product title</p>
+                <p>Tên sản phẩm</p>
                 <input value={productDetails.name} onChange={changeHandler} type="text" name='name' placeholder='Type here' />
             </div>
 
             <div className="addproduct-price">
 
                 <div className="addproduct-itemfield">
-                    <p>Price</p>
+                    <p>Giá</p>
                     <input value={productDetails.old_price} onChange={changeHandler} type="text" name="old_price" placeholder='Type here' />
                 </div>
 
                 <div className="addproduct-itemfield">
-                    <p>Offer Price</p>
+                    <p>Giá mới</p>
                     <input value={productDetails.new_price} onChange={changeHandler} type="text" name="new_price" placeholder='Type here' />
                 </div>
 
@@ -76,9 +76,9 @@ const AddProduct = () => {
             <div className="addproduct-itemfield">
                 <p>Product Category</p>
                 <select value={productDetails.category} onChange={changeHandler} name="category" className='add-product-selector'>
-                    <option value="women">Women</option>
-                    <option value="men">Men</option>
-                    <option value="kid">Kids</option>
+                    <option value="women">Nữ</option>
+                    <option value="men">Nam</option>
+                    <option value="kid">Trẻ em</option>
                 </select>
             </div>
             <div className="addproduct-itemfield">
