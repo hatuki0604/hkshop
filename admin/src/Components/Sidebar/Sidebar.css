@@ -1,22 +1,32 @@
-.sidebar{
+.sidebar {
     display: flex;
     flex-direction: column;
     padding-top: 30px;
     gap: 20px;
     width: 100%;
-    max-width: 250px;
+    max-width: 300px;
     height: 100vh;
     background: white;
 }
 
-.sidebar-item{
+.sidebar-item {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 0px 20px;
+    gap: 20px;
+    cursor: pointer;
     padding: 5px 10px;
     border-radius: 6px;
     background: #f6f6f6;
-    gap: 20px;
-    cursor: pointer;
+    margin: 0px 20px;
+}
+
+.sidebar-item img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px; /* Khoảng cách giữa hình ảnh và văn bản */
+}
+
+.sidebar-item p {
+    margin: 0; /* Loại bỏ margin mặc định của đoạn văn bản */
+    color: black;
 }
